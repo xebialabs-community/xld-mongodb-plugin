@@ -1,1 +1,15 @@
 language: java
+notifications:
+  hipchat:
+    rooms:
+      secure: lCqxRJunh6NzEtNHBrnxWzFcOdMyWD/G2Q45x6HJ7BqvwQyXHGxLm1GfU9zH/KYC6f5Hxr1A3SHRp2TMQYbWUr4mroji30NbuwkKRksMCrySn9mEDyR7kepQIXpiqRP0kotM0kH2Y2a8IyWb+363Xxg9wyALKYrpppYauDudk/M=
+deploy:
+  provider: releases
+  api_key:
+    secure: kVnsNZuS+NhVkPRw/NsLHhmbXd3/c4Kn1+NMjU1Vcuzo4yhVZyoNyeiuxmcE3QBrlrwyvJ5B7VGgVESddIDALwop0oQnqb/ArajA0+a0ROFO2Q0UjxltUtEyaMijpxpWeAXxY+vZisX4Ad41Lw4I7WhxN2OpUDA/bRoQpQnyev0=
+  file: build/libs/mongodb-plugin-1.0.jar
+  skip_cleanup: true
+  on:
+    all_branches: true
+    tags: true
+    repo: xebialabs-community/mongodb-plugin
