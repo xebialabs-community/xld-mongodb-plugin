@@ -28,6 +28,7 @@
         <property name="port" required="true" default="27017" kind="integer" description="The port Mongo DB is running on." />
 
         <property name="database" required="false" default="" description="The database the mongo client should connect to." />
+        <property name="bin" required="false" default="mongo" description="The bin used for the command. By default, 'mongo' is used, means that 'mongo' has to be present in the $PATH. Other value can be an absolute path, i.e /var/lib/mongodb-mms-automation/mongodb-linux-x86_64-3.0.8-ent/bin/mongo." />
     </type>
 
 	
