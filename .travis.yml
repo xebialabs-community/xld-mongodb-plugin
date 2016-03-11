@@ -6,7 +6,7 @@ notifications:
 deploy:
   provider: releases
   api_key:
-    secure: kVnsNZuS+NhVkPRw/NsLHhmbXd3/c4Kn1+NMjU1Vcuzo4yhVZyoNyeiuxmcE3QBrlrwyvJ5B7VGgVESddIDALwop0oQnqb/ArajA0+a0ROFO2Q0UjxltUtEyaMijpxpWeAXxY+vZisX4Ad41Lw4I7WhxN2OpUDA/bRoQpQnyev0=
+    secure: FDIb+jWG20h63iw03R/9wviGmejAA/GxfgUqdV8xlIMc23iy0QExt8SwziU7PQsPLuXVGR3CUbMWKUSwmp3mLvmirh35zS+fhWuvzivXOpbqbM5FMcG3qhQ0LSnEQs+AJ5rsD3/3jRXy3LU9Hw3p6dWmHrrmgRgU1rUI+P5uNSU=
   file: build/distributions/xld-mongodb-plugin-1.0.1.xldp
   skip_cleanup: true
   on:
