@@ -1,5 +1,7 @@
 # Preface #
 
+[![Build Status](https://travis-ci.org/xebialabs-community/xld-mongodb-plugin.svg?branch=master)](https://travis-ci.org/xebialabs-community/xld-mongodb-plugin)
+
 This document describes the functionality provided by the Mongo DB plugin.
 
 See the **XL Deploy Reference Manual** for background information on XL Deploy and deployment concepts.

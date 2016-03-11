@@ -7,7 +7,7 @@ deploy:
   provider: releases
   api_key:
     secure: kVnsNZuS+NhVkPRw/NsLHhmbXd3/c4Kn1+NMjU1Vcuzo4yhVZyoNyeiuxmcE3QBrlrwyvJ5B7VGgVESddIDALwop0oQnqb/ArajA0+a0ROFO2Q0UjxltUtEyaMijpxpWeAXxY+vZisX4Ad41Lw4I7WhxN2OpUDA/bRoQpQnyev0=
-  file: build/libs/mongodb-plugin-1.0.jar
+  file: build/distributions/xld-mongodb-plugin-1.0.1.xldp
   skip_cleanup: true
   on:
     all_branches: true
