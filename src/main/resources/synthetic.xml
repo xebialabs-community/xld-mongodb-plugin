@@ -9,6 +9,7 @@
 <synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<type type="mongodb.MongoDBScripts" extends="generic.Folder" description="Folder containing Mongo DB scripts">
+		<property name="textFileNamesRegex" hidden="true" default=".+\.(cfg | conf | config | ini | properties | props | txt | asp | aspx | htm | html | js | jsf | jsp | xht | xhtml | sql | xml | xsd | xsl | xslt)"/>
     </type>
 
     <type type="mongodb.ExecutedMongoDBScripts" extends="generic.ExecutedFolder" deployable-type="mongodb.MongoDBScripts" container-type="mongodb.MongoDBClient" description="Mongo DB scripts executed on an Mongo DB client">
