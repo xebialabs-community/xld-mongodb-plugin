@@ -1,6 +1,10 @@
 # Preface #
 
 [![Build Status](https://travis-ci.org/xebialabs-community/xld-mongodb-plugin.svg?branch=master)](https://travis-ci.org/xebialabs-community/xld-mongodb-plugin)
+[![License: MIT][license-image]][license-url]
+
+[license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: https://opensource.org/licenses/MIT
 
 This document describes the functionality provided by the Mongo DB plugin.
 

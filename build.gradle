@@ -1,5 +1,5 @@
 plugins {
-    id "com.github.hierynomus.license" version "0.12.1"
+    id "com.github.hierynomus.license" version "0.15.0"
     id "com.xebialabs.xldp" version "1.0.5"
 }
 
@@ -11,6 +11,6 @@ apply plugin: 'eclipse'
 apply plugin: 'maven'
 
 license {
-    header rootProject.file('src/main/license/xebialabs_community.license')
-    strictCheck true
+    header rootProject.file('codequality/HEADER.md')
+    strictCheck false
 }
