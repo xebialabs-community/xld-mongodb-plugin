@@ -10,7 +10,7 @@
 ## Installation
 ### Building the Plugin
 The gradle wrapper facilitates building the plugin.  Use the following command to build using [Gradle](https://gradle.org/):
-```
+```bash
 ./gradlew clean assemble
 ```
 The built plugin, along with other files from the build, can then be found in the _build_ folder.
