@@ -1,6 +1,7 @@
 # Preface #
 
 [![Build Status](https://travis-ci.org/xebialabs-community/xld-mongodb-plugin.svg?branch=master)](https://travis-ci.org/xebialabs-community/xld-mongodb-plugin)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/badb1346e64f431c9221e710aa2753aa)](https://www.codacy.com/app/ndebuhr/xld-mongodb-plugin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=xebialabs-community/xld-mongodb-plugin&amp;utm_campaign=Badge_Grade)
 [![License: MIT][license-image]][license-url]
 
 [license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
