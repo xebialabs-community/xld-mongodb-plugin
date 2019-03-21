@@ -26,7 +26,11 @@ The configuration items for this plugin:
 1. MongoDB Client (type mongodb.MongoDBClient)
 1. Executed MongoDB Scripts (type mongodb.ExecutedMongoDBScripts)
 
-To run MongoDB scripts during a deployment, you must have the MongoDBScripts configuration item in the deployment package and the MongoDBClient defined on the _overthere_ host (infrastructure).  Use the docs.xebialabs.com site for [more information on deployments and the XL Deploy Unified Deployment Model (UDM)](https://docs.xebialabs.com/xl-deploy/concept/deployment-overview-and-unified-deployment-model.html). 
+To run MongoDB scripts during a deployment, you must have the MongoDBScripts configuration item in the deployment package and the MongoDBClient defined on the _overthere_ host (infrastructure).  Use the docs.xebialabs.com site for [more information on deployments and the XL Deploy Unified Deployment Model (UDM)](https://docs.xebialabs.com/xl-deploy/concept/deployment-overview-and-unified-deployment-model.html).
+
+## Contributing
+
+Please review the contributing guidelines for _xebialabs-community_ at [http://xebialabs-community.github.io/](http://xebialabs-community.github.io/)
 
 ## License
 
